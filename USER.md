@@ -14,6 +14,7 @@ _Learn about the person you're helping. Update this as you go._
 - Background: fisica teorica, inverse problems, finanza quantitativa, blockchain, DeFi, tokenization.
 - Vuole costruire un'azienda orchestrata da Cassia con struttura a piramide.
 - L'azienda deve avere due anime: **Ricerca & Sviluppo** + **Applicazione Business**.
+- Nella parte R&D preferisce un unico capo scientifico con visione trasversale e sottobot per linee specifiche.
 - Obiettivo operativo: coordinare più agenti AI per funzioni diverse.
 - Preferisce velocità decisionale, precisione e comunicazione diretta.
 

@@ -35,3 +35,4 @@
 - **D-003 (2026-03-06):** Strategic company architecture confirmed as dual-track: R&D + Business Applications.
 - **D-004 (2026-03-06):** Initial lead-bot structure launched with 4 leads (RD-Scientist, RD-Builder, Biz-Product, Biz-Growth) and shared operating system templates.
 - **D-005 (2026-03-06):** Workspace model switched to hybrid: central control workspace + dedicated workspace per lead bot.
+- **D-006 (2026-03-06):** R&D leadership restructured: merge RD-Scientist + RD-Builder into one lead `Science-Chief` with dedicated scientific subbots per research line.

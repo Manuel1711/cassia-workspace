@@ -3,16 +3,18 @@
 Questa cartella contiene i workspace operativi separati per i lead bot.
 
 ## Struttura standard per ogni bot
-- `inbox/` → task ricevuti da Cassia
-- `working/` → lavoro in corso
-- `outbox/` → deliverable finali pronti per review
-- `logs/` → log operativi del bot
+- `inbox/` -> task ricevuti da Cassia
+- `working/` -> lavoro in corso
+- `outbox/` -> deliverable finali pronti per review
+- `logs/` -> log operativi del bot
 
-## Workspace attivi
-- `rd-scientist/`
-- `rd-builder/`
+## Workspace lead attivi
+- `science-chief/`
 - `biz-product/`
 - `biz-growth/`
+
+## Archivio
+- `archive/` contiene workspace non più attivi (es. vecchia separazione rd-scientist / rd-builder)
 
 ## Regola operativa
 Ogni bot lavora nel proprio workspace e pubblica output in `outbox/`.

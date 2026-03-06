@@ -1,15 +1,17 @@
-# KPI Dashboard v1
+# KPI Dashboard v2
 
 ## R&D
-### RD-Scientist
-- Numero ipotesi validate / settimana
-- Tempo medio da ipotesi a protocollo test
-- Qualità evidenze (score interno 1-5)
+### Science-Chief
+- Numero linee di ricerca attive
+- Numero linee con owner assegnato
+- Numero milestone scientifiche completate / settimana
+- Tempo medio da domanda di ricerca a protocollo validato
+- Qualità review scientifica (score interno 1-5)
 
-### RD-Builder
-- Numero PoC completati / settimana
-- Tasso successo test (%)
-- Tempo medio ciclo prototipo -> test
+### Sottobot scientifici (aggregato)
+- Throughput esperimenti / settimana
+- Tasso ipotesi confermate (%)
+- Tempo medio esperimento -> report
 
 ## Business
 ### Biz-Product

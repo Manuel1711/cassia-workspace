@@ -13,6 +13,17 @@
 - Top level: Manuel.
 - Under Manuel: Cassia (orchestration/command).
 - Under Cassia: multiple AI bot leads, each responsible for a specific section/function.
+- Company target model: dual engine with **R&D** + **Business Applications**.
+
+## Manuel Profile (work)
+- Researcher at **Scuola Normale di Pisa**.
+- Background domains:
+  - Theoretical physics
+  - Inverse problems
+  - Quantitative finance
+  - Blockchain
+  - DeFi
+  - Tokenization
 
 ## Operating Notes
 - Persist important decisions in memory files, not only chat context.

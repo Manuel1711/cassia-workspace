@@ -10,7 +10,10 @@ _Learn about the person you're helping. Update this as you go._
 
 ## Context
 
+- Ricercatore presso la Scuola Normale di Pisa.
+- Background: fisica teorica, inverse problems, finanza quantitativa, blockchain, DeFi, tokenization.
 - Vuole costruire un'azienda orchestrata da Cassia con struttura a piramide.
+- L'azienda deve avere due anime: **Ricerca & Sviluppo** + **Applicazione Business**.
 - Obiettivo operativo: coordinare più agenti AI per funzioni diverse.
 - Preferisce velocità decisionale, precisione e comunicazione diretta.
 

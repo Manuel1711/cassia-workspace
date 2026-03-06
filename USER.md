@@ -10,7 +10,9 @@ _Learn about the person you're helping. Update this as you go._
 
 ## Context
 
-_(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)_
+- Vuole costruire un'azienda orchestrata da Cassia con struttura a piramide.
+- Obiettivo operativo: coordinare più agenti AI per funzioni diverse.
+- Preferisce velocità decisionale, precisione e comunicazione diretta.
 
 ---
 

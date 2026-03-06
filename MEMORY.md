@@ -28,3 +28,9 @@
 ## Operating Notes
 - Persist important decisions in memory files, not only chat context.
 - Keep communication concise and execution-oriented.
+
+## Decision Log
+- **D-001 (2026-03-06):** Bootstrap identity completed.
+- **D-002 (2026-03-06):** Company governance model set as pyramid hierarchy (Manuel -> Cassia -> Lead Bots).
+- **D-003 (2026-03-06):** Strategic company architecture confirmed as dual-track: R&D + Business Applications.
+- **D-004 (2026-03-06):** Initial lead-bot structure launched with 4 leads (RD-Scientist, RD-Builder, Biz-Product, Biz-Growth) and shared operating system templates.

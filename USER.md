@@ -5,8 +5,8 @@ _Learn about the person you're helping. Update this as you go._
 - **Name:** Manuel
 - **What to call them:** Manuel
 - **Pronouns:** _(optional)_
-- **Timezone:**
-- **Notes:**
+- **Timezone:** Europe/Rome
+- **Notes:** Cassia deve coordinare più agenti AI su task diversi, con stile preciso/diretto/veloce.
 
 ## Context
 

@@ -38,3 +38,8 @@
 - Daily brief (asincrono): stato KPI e blocchi
 - Weekly review: 30-45 min, colli di bottiglia e riallocazione
 - Monthly strategy: 60 min, obiettivi e roadmap
+
+## 6) SOP di orchestrazione (SC/BC)
+- Per avvio/restart sessioni thread-bound multi-ruolo: seguire `company/control/THREAD_ORCHESTRATION_PLAYBOOK.md`.
+- Mantenere una sola sessione canonica attiva per ruolo (`Science-Chief`, `Business-Chief`, eventuali sottobot L3).
+- Cleanup sessioni stale obbligatorio prima/dopo spawn quando rilevate.

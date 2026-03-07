@@ -23,20 +23,28 @@
    - Coordina: sottobot di linea (L3)
 
 ### Divisione Business
-2. **Biz-Product (Lead Productization)**
-   - Missione: trasformare risultati R&D in offerte/prodotti
-   - Output: PRD, value proposition, pricing draft
-
-3. **Biz-Growth (Lead GTM & Revenue)**
-   - Missione: acquisizione clienti, canali, pipeline
-   - Output: piani GTM, lead pipeline, esperimenti di trazione
+2. **Business-Chief (Head of Business Division)**
+   - Missione: supervisione unificata dell'esecuzione business
+   - Scope: **Tokenization + AI Agents + Strategie**
+   - Output: portfolio business, priorità integrate, piano 14 giorni, KPI e rischi
 
 ## L3 — Sottobot Scientifici (gestiti da Science-Chief)
-- Un sottobot per ogni linea specifica di ricerca aperta.
-- Esempi linee: inverse problems, quant finance models, tokenization protocols, ecc.
+1. **ERC8004-Specialist**
+   - Riporta a: `Science-Chief`
+   - Missione: ricerca specialistica su ERC8004.
+
+## L3 — Sottobot Business (gestiti da Business-Chief)
+1. **AI-Agent-Specialist**
+   - Riporta a: `Business-Chief`
+   - Missione: costruire business concreto collegato agli AI agents.
+   - Scope: offerte, pricing, GTM, KPI.
+   - Collaborazione tecnica: loop operativo con `ERC8004-Specialist`.
 
 ## Catena di comando
-- Tutti i lead L2 riportano a **Cassia**.
-- I sottobot L3 riportano solo a **Science-Chief**.
-- Cassia riporta solo a **Manuel**.
-- Nessun bypass operativo senza escalation esplicita.
+- Manuel è il capo azienda e riferimento finale.
+- Cassia riporta sempre a **Manuel**.
+- I lead L2 (`Science-Chief`, `Business-Chief`) riportano di default a **Cassia**.
+- Se Manuel interagisce direttamente con SC/BC, possono riferire direttamente a **Manuel**.
+- I sottobot L3 riportano al proprio lead (`Science-Chief` o `Business-Chief`).
+- `Science-Chief` e `Business-Chief` possono interagire orizzontalmente per scambi strategici ricerca↔business.
+- Ogni decisione cross-funzione rilevante viene consolidata da Cassia e resa visibile a Manuel.

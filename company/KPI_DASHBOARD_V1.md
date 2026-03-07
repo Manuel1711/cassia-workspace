@@ -1,4 +1,4 @@
-# KPI Dashboard v2
+# KPI Dashboard v3
 
 ## R&D
 ### Science-Chief
@@ -14,15 +14,20 @@
 - Tempo medio esperimento -> report
 
 ## Business
-### Biz-Product
-- Numero use-case pronti al mercato
-- Tempo medio R&D -> PRD
-- Chiarezza value proposition (score interno 1-5)
-
-### Biz-Growth
-- Lead qualificati / settimana
-- Conversione lead -> meeting (%)
-- CAC sperimentale per canale
+### Business-Chief (supervisore unico)
+- **Tokenization**
+  - Numero use-case prioritizzati e pronti a discovery/validazione
+  - Tempo medio idea -> business case
+- **AI Agents**
+  - Numero automazioni/agenti pronti al packaging commerciale
+  - Tempo medio concept -> pilot
+- **Strategie**
+  - Numero decisioni GTM/pricing validate per ciclo
+  - Lead qualificati / settimana
+  - Conversione lead -> meeting (%)
+- **Cross-stream**
+  - Pipeline business qualificata (conteggio + valore proxy)
+  - Learning velocity (esperimenti business chiusi / settimana)
 
 ## Executive (Cassia -> Manuel)
 - KPI verdi (top 3)

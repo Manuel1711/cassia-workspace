@@ -1,0 +1,43 @@
+[RUN] collector start 2026-03-07T12:13:05+01:00
+
+================================================================================
+Chain: ethereum (expected chainId=1)
+================================================================================
+RPC: https://mainnet.infura.io/v3/2effd6ddec5843a88a4bc45bdb5f3a3...
+Latest block: 24605199
+Detecting deployment blocks (binary search via eth_getCode)...
+Identity deploy block ~ 24339871. Using FROM_BLOCK=24339871
+Reputation deploy block ~ 24339873. Using FROM_BLOCK=24339873
+[identity_registered] blocks 24339871-24359870: 22711 logs (chunk=20000)
+[identity_registered] blocks 24359871-24379870: 197 logs (chunk=20000)
+[identity_registered] blocks 24379871-24399870: 257 logs (chunk=20000)
+[identity_registered] blocks 24399871-24419870: 787 logs (chunk=20000)
+[identity_registered] blocks 24419871-24439870: 108 logs (chunk=20000)
+[identity_registered] blocks 24439871-24459870: 1041 logs (chunk=20000)
+[identity_registered] blocks 24459871-24479870: 385 logs (chunk=20000)
+[identity_registered] blocks 24479871-24499870: 54 logs (chunk=20000)
+[identity_registered] blocks 24499871-24519870: 867 logs (chunk=20000)
+[identity_registered] blocks 24519871-24539870: 1488 logs (chunk=20000)
+[identity_registered] blocks 24539871-24559870: 28 logs (chunk=20000)
+[identity_registered] blocks 24559871-24579870: 361 logs (chunk=20000)
+[identity_registered] blocks 24579871-24599870: 91 logs (chunk=20000)
+[identity_registered] blocks 24599871-24605199: 5 logs (chunk=20000)
+ERROR on ethereum: need to escape, but no escapechar set
+Skipping polygon: missing RPC_URL_POLYGON in env.
+Skipping base: missing RPC_URL_BASE in env.
+Skipping arbitrum: missing RPC_URL_ARBITRUM in env.
+Skipping avalanche: missing RPC_URL_AVALANCHE in env.
+Skipping bnb: missing RPC_URL_BNB in env.
+
+All done.
+Global manifest: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1215_eth_validation/manifest_all.json
+[RUN] collector done 2026-03-07T12:13:29+01:00
+[RUN] build_metrics start 2026-03-07T12:13:29+01:00
+Saved: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/results/metrics/2026-03-07_1215_eth_validation/metrics_summary.json
+[RUN] build_metrics done 2026-03-07T12:13:30+01:00
+[RUN] make_figures start 2026-03-07T12:13:30+01:00
+/usr/local/lib/python3.10/dist-packages/matplotlib/projections/__init__.py:63: UserWarning: Unable to import Axes3D. This may be due to multiple versions of Matplotlib being installed (e.g. as a system package and as a pip package). As a result, the 3D projection is not available.
+  warnings.warn("Unable to import Axes3D. This may be due to multiple versions of "
+Saved: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/results/figures/2026-03-07_1215_eth_validation/fig_01_cumulative_registrations.pdf
+Saved: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/results/explainers/2026-03-07_1215_eth_validation_figures.md
+[RUN] make_figures done 2026-03-07T12:13:31+01:00

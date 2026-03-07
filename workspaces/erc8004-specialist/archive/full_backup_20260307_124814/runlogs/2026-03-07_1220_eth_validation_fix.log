@@ -1,0 +1,93 @@
+
+================================================================================
+Chain: ethereum (expected chainId=1)
+================================================================================
+RPC: https://mainnet.infura.io/v3/2effd6ddec5843a88a4bc45bdb5f3a3...
+Latest block: 24605204
+Detecting deployment blocks (binary search via eth_getCode)...
+Identity deploy block ~ 24339871. Using FROM_BLOCK=24339871
+Reputation deploy block ~ 24339873. Using FROM_BLOCK=24339873
+[identity_registered] blocks 24339871-24359870: 22711 logs (chunk=20000)
+[identity_registered] blocks 24359871-24379870: 197 logs (chunk=20000)
+[identity_registered] blocks 24379871-24399870: 257 logs (chunk=20000)
+[identity_registered] blocks 24399871-24419870: 787 logs (chunk=20000)
+[identity_registered] blocks 24419871-24439870: 108 logs (chunk=20000)
+[identity_registered] blocks 24439871-24459870: 1041 logs (chunk=20000)
+[identity_registered] blocks 24459871-24479870: 385 logs (chunk=20000)
+[identity_registered] blocks 24479871-24499870: 54 logs (chunk=20000)
+[identity_registered] blocks 24499871-24519870: 867 logs (chunk=20000)
+[identity_registered] blocks 24519871-24539870: 1488 logs (chunk=20000)
+[identity_registered] blocks 24539871-24559870: 28 logs (chunk=20000)
+[identity_registered] blocks 24559871-24579870: 361 logs (chunk=20000)
+[identity_registered] blocks 24579871-24599870: 91 logs (chunk=20000)
+[identity_registered] blocks 24599871-24605204: 5 logs (chunk=20000)
+Saved 28380 rows -> /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1/identity_registered.csv
+[identity_metadataset] blocks 24339871-24359870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24359871-24379870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24379871-24399870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24399871-24419870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24419871-24439870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24439871-24459870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24459871-24479870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24479871-24499870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24499871-24519870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24519871-24539870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24539871-24559870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24559871-24579870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24579871-24599870: 0 logs (chunk=20000)
+[identity_metadataset] blocks 24599871-24605204: 0 logs (chunk=20000)
+Saved 0 rows -> /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1/identity_metadataset.csv
+[identity_transfer] blocks 24339871-24359870: 28913 logs (chunk=20000)
+[identity_transfer] blocks 24359871-24379870: 280 logs (chunk=20000)
+[identity_transfer] blocks 24379871-24399870: 291 logs (chunk=20000)
+[identity_transfer] blocks 24399871-24419870: 1763 logs (chunk=20000)
+[identity_transfer] blocks 24419871-24439870: 156 logs (chunk=20000)
+[identity_transfer] blocks 24439871-24459870: 1940 logs (chunk=20000)
+[identity_transfer] blocks 24459871-24479870: 839 logs (chunk=20000)
+[identity_transfer] blocks 24479871-24499870: 57 logs (chunk=20000)
+[identity_transfer] blocks 24499871-24519870: 893 logs (chunk=20000)
+[identity_transfer] blocks 24519871-24539870: 1502 logs (chunk=20000)
+[identity_transfer] blocks 24539871-24559870: 30 logs (chunk=20000)
+[identity_transfer] blocks 24559871-24579870: 528 logs (chunk=20000)
+[identity_transfer] blocks 24579871-24599870: 94 logs (chunk=20000)
+[identity_transfer] blocks 24599871-24605204: 7 logs (chunk=20000)
+Saved 37293 rows -> /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1/identity_transfer.csv
+[reputation_newfeedback] blocks 24339873-24359872: 513 logs (chunk=20000)
+[reputation_newfeedback] blocks 24359873-24379872: 172 logs (chunk=20000)
+[reputation_newfeedback] blocks 24379873-24399872: 87 logs (chunk=20000)
+[reputation_newfeedback] blocks 24399873-24419872: 19 logs (chunk=20000)
+[reputation_newfeedback] blocks 24419873-24439872: 1164 logs (chunk=20000)
+[reputation_newfeedback] blocks 24439873-24459872: 11 logs (chunk=20000)
+[reputation_newfeedback] blocks 24459873-24479872: 43 logs (chunk=20000)
+[reputation_newfeedback] blocks 24479873-24499872: 149 logs (chunk=20000)
+[reputation_newfeedback] blocks 24499873-24519872: 5 logs (chunk=20000)
+[reputation_newfeedback] blocks 24519873-24539872: 211 logs (chunk=20000)
+[reputation_newfeedback] blocks 24539873-24559872: 68 logs (chunk=20000)
+[reputation_newfeedback] blocks 24559873-24579872: 8 logs (chunk=20000)
+[reputation_newfeedback] blocks 24579873-24599872: 322 logs (chunk=20000)
+[reputation_newfeedback] blocks 24599873-24605204: 4 logs (chunk=20000)
+Saved 2776 rows -> /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1/reputation_newfeedback.csv
+[reputation_feedbackrevoked] blocks 24339873-24359872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24359873-24379872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24379873-24399872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24399873-24419872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24419873-24439872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24439873-24459872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24459873-24479872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24479873-24499872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24499873-24519872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24519873-24539872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24539873-24559872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24559873-24579872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24579873-24599872: 0 logs (chunk=20000)
+[reputation_feedbackrevoked] blocks 24599873-24605204: 0 logs (chunk=20000)
+Saved 0 rows -> /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1/reputation_feedbackrevoked.csv
+Done chain ethereum. Output dir: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/ethereum_1
+Skipping polygon: missing RPC_URL_POLYGON in env.
+Skipping base: missing RPC_URL_BASE in env.
+Skipping arbitrum: missing RPC_URL_ARBITRUM in env.
+Skipping avalanche: missing RPC_URL_AVALANCHE in env.
+Skipping bnb: missing RPC_URL_BNB in env.
+
+All done.
+Global manifest: /home/manuel/.openclaw/workspace/workspaces/erc8004-specialist/working/data/raw/2026-03-07_1220_eth_validation_fix/manifest_all.json

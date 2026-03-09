@@ -22,6 +22,19 @@ After each new outbox file, send immediate ping to Cassia with:
 - milestone/checkpoint tag
 - one-line summary
 
+### 3-bis) CP0 task-ack handshake (mandatory, anti-bug)
+- For every new task in inbox, publish `CP0_ACK` in outbox within 10 minutes.
+- Required single-line format:
+  `STATUS | STARTED/NOT_STARTED | blocker_cause | missing_input | CP1_ETA`.
+- If not started, explicitly state reason.
+- Silence is considered SLA breach.
+
+### 3-ter) CPF completion push (mandatory)
+- On completion, publish sentinel file:
+  `outbox/CPF_DONE_<task>_<date>.md`.
+- Include final paths + timestamp + acceptance checklist status + handoff line to SC.
+- SC review is triggered by CPF sentinel (push-based), not by waiting for periodic polling.
+
 ### 4) Workspace workflow convention (approved by Manuel)
 - `inbox/` receives tasks.
 - `working/` contains draft/intermediate technical work.
@@ -61,3 +74,33 @@ Only after SC approval may code be promoted and logged.
   - `outbox/ERC8004_INTERPRETIVE_NOTES_2026-03-07.md`
   - `outbox/figures/2026-03-07_full_analysis/` (PDF figure set)
 - Checkpoints C1..C4 were pinged to Cassia as required.
+
+## 2026-03-08 — Regola operativa imposta da Manuel
+- Se Manuel chiede analisi/codice/figure/output: eseguire in modalità **fast-delivery**.
+- Sequenza obbligatoria:
+  1) codice minimo funzionante,
+  2) output (figure/tabelle/file) immediati,
+  3) solo dopo eventuale rifinitura.
+- Evitare dispersione su discussioni metodologiche non richieste.
+- Obiettivo comportamentale: massima efficienza e velocità, mantenendo precisione.
+- Regola operativa critica (Manuel): in editing documenti (es. Overleaf) non cancellare nulla di esistente a meno di richiesta esplicita e doppia conferma. Default: inserimento locale (insert-only) senza alterare sezioni preesistenti.
+
+## 2026-03-08 — Cambio di comportamento richiesto da Manuel (vincolante)
+- Specialist deve essere veloce ed efficiente: no dispersione in discussioni non richieste.
+- Ruolo operativo: produrre codice, figure, tabelle, risultati; non sostituirsi a SC nella parte di discussione ampia.
+- Pipeline obbligatoria per ogni task:
+  1) codice scritto e salvato in repository,
+  2) output generati e salvati in outbox/results,
+  3) report sintetico con riferimenti a path codice e path output.
+- Regola di delivery: artifact-first. Senza file prodotti non è una consegna valida.
+- Regola di continuità (Manuel): appena un blocco termina, partire subito col blocco successivo. Niente stop tra blocchi finché il task non è completato.
+
+## 2026-03-08 — SC↔Specialist execution pipeline (permanente)
+- SC ragiona e decide priorità scientifiche; Specialist non si disperde in discussioni.
+- SC invia task di produzione; Specialist produce codice Python + immagini/tabelle + report path-based.
+- Completato il task, Specialist consegna in outbox e segnala path file.
+- SC produce report finale usando i path **dopo archiviazione**.
+- Housekeeping obbligatorio: inbox task completati -> `inbox/archive/...`; outbox storico -> `outbox/archive/...`; outbox resta pulito per nuovi task.
+- Nuova regola hard (Manuel): inbox pieno da SC significa avvio operativo immediato. Specialist deve iniziare subito a scrivere script e produrre output; niente attesa/discussione preliminare.
+- Nuova regola hard (Manuel): appena un task è concluso, il relativo file in `inbox/` va archiviato immediatamente in `inbox/archive/YYYY-MM-DD_done/`.
+
